@@ -100,3 +100,5 @@ lint_python_local.sh
 output/*
 !output/.gitkeep
 .pytest_cache
+
+training_checkpoints

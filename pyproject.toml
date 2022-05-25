@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "text-to-face-dcgan"
+version = "0.1.0"
+description = ""
+authors = ["Tom Naumann"]
+readme = "README.md"
+packages = [{include = "text_to_face_dcgan"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.11"
+jupyter = "^1.0.0"
+tensorflow = "2.8.0"
+imageio = "^2.19.2"
+matplotlib = "^3.5.2"
+pandas = "^1.4.2"
+tensorflow-docs = {git = "https://github.com/tensorflow/docs.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
