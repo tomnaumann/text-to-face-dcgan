@@ -93,11 +93,9 @@ target/
 # Mypy cache
 .mypy_cache/
 
-lint_python_local.sh
-~
-
 # Output files
 output/*
+tmp/*
 !output/.gitkeep
 .pytest_cache
 
