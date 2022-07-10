@@ -2,7 +2,10 @@
 
 **Disclaimer**:
 Please notice that the final goal has not been reached yet.
-A technical feasibility could be proven, but a model could not be trained due to an insufficient amount of available data.
+A technical feasibility could be proven, but a model with a proper performance couldn't be trained among others due to an insufficient amount of data.
+
+## Goal
+tbd
 
 ## Kudos to Tensorflow
 Big kudos to Tensorflow for the great documentation on their Deep Convolutional Generative Adversarial Network build for the MNIST dataset which was used as a foundation to build the following Text-to-Face DCGAN.
@@ -31,6 +34,12 @@ Done. You are ready to execute the notebooks.
 
 ## Steps
 0. Check out Tensorflow's tutorial about their DCGAN for MNIST
+1. Control the generated MNIST image (28x28x1) by feeding an additional text input feature (see Notebook 1)
+2. Generate random human faces (64x64x1) (see Notebook 2)
+3. Control the generated human face (64x64x1) with additional facial characteristic inputs (see Notebook 3)
+
+## Literature / Reading Material
+tbd
 
 ## Contributors
 - Tom Naumann

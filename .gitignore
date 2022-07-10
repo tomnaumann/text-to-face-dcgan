@@ -81,7 +81,10 @@ target/
 .ipynb_checkpoints/
 
 # exclude data from source control by default
-/data/
+data/mnist
+data/humanfaces/*
+!data/humanfaces/selected_men.pkl
+!data/humanfaces/humanfaces_labels.csv
 
 # Mac OS-specific storage files
 .DS_Store
@@ -95,8 +98,8 @@ target/
 
 # Output files
 output/*
-tmp/*
 !output/.gitkeep
+tmp/*
 .pytest_cache
 
 training_checkpoints
